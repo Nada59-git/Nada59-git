@@ -79,12 +79,12 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=ECFDF5&title_color=065F46&icon_color=059669&text_color=064E3B" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&hide_border=true&background=ECFDF5&stroke=059669&ring=34D399&fire=065F46&currStreakLabel=065F46" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Nada59-git&show_icons=true&hide_border=true&bg_color=ECFDF5&title_color=065F46&icon_color=059669&text_color=064E3B" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nada59-git&hide_border=true&background=ECFDF5&stroke=059669&ring=34D399&fire=065F46&currStreakLabel=065F46" width="48%"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=ECFDF5&title_color=065F46&text_color=064E3B" width="50%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nada59-git&layout=compact&hide_border=true&bg_color=ECFDF5&title_color=065F46&text_color=064E3B" width="50%"/>
 
 </div>
 
@@ -95,9 +95,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/green-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/green-snake.svg" />
-  <img alt="green contribution snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/green-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nada59-git/Nada59-git/output/green-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nada59-git/Nada59-git/output/green-snake.svg" />
+  <img alt="green contribution snake" src="https://raw.githubusercontent.com/Nada59-git/Nada59-git/output/green-snake.svg" />
 </picture>
 
 </div>
