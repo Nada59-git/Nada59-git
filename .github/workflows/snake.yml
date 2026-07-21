@@ -1,4 +1,4 @@
-name: Generate Pink Snake
+name: Generate Green Snake
 
 on:
   schedule:
@@ -14,18 +14,20 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: Generate pink snake SVG
-        uses: Platane/snk@v3
+      - name: Generate green snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/pink-snake.svg?palette=pink
-            dist/pink-snake-dark.svg?palette=pink&color_snake=%23FF1493
-
-      - name: Push generated SVG to the "output" branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+            dist/green-snake.svg?color_snake=%2316A34A&color_dots=%23ECFDF5,%23BBF7D0,%2386EFAC,%2334D399,%23059669
+            dist/green-snake-dark.svg?color_snake=%2334D399&color_dots=%230B1F17,%23064E3B,%23065F46,%23059669,%2334D399&palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push generated SVG to the "output" branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
